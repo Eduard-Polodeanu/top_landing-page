@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.text-big {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+.text-biggest {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.text-bold {
+    font-weight: bold;
+}
+
+button {
+    border-radius: 6px;
+    padding: 5px 20px;
+    width: 150px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+.button-signup {
+    border-color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header,
+.footer {
+    padding: 20px 200px;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    justify-content: space-between;
+}
+
+.footer {
+    justify-content: center;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-main,
+.content-info,
+.content-quote,
+.content-signup {
+    flex: 1;
+    padding: 100px 200px;
+}
+
+.content-main {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.content-main img {
+    width: 400px;
+    height: auto;
+}
+
+.container1 .text {
+    padding: 16px 0px;
+    color: #E5E7EB;
+}
+
+.content-info .text-big {
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.container-panels {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.panel {
+    max-width: 200px;
+}
+
+.panel img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid #1F2937;
+    margin-bottom: 10px;
+}
+
+.content-quote {
+    background-color: #E5E7EB;
+}
+
+.content-quote .text-big {
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.content-quote .text {
+    text-align: end;
+}
+
+.content-signup {
+    background-color: #3882F6;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
